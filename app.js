@@ -19,7 +19,7 @@ app.use("/post", pass);
 // });
 mongoose.connect(
   process.env.DB_CONNECTION,
-  //   "mongodb+srv://tarushjreddy:Tarushjreddy9*@rest.2cuh1.mongodb.net/tarushjreddy?retryWrites=true&w=majority",
+
   { usenewUrlParser: true },
   () => {
     console.log("connect to server");
